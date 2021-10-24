@@ -1,0 +1,11 @@
+.loadingdivimg {
+  /*width: 100px;*/
+  /*height: 100px;*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  transform: translate(-50%, 0);
+}
+

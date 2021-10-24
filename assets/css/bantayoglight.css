@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'bantayoglight';
+	src: url(../../assets/fonts/bantayog-light-webfont.woff2) format('woff2'),
+	url(../../assets/fonts/bantayog-light-webfont.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
