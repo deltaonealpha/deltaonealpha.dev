@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://lirecent.com/music/main.html</loc>
+        <loc>/music/main.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/projects/dbfa.html</loc>
+        <loc>/projects/dbfa.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/projects/delta-nlp.html</loc>
+        <loc>/projects/delta-nlp.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/projects/dvalve2.html</loc>
+        <loc>/projects/dvalve2.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/projects/lirecent.html</loc>
+        <loc>/projects/lirecent.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/projects/phms2.html</loc>
+        <loc>/projects/phms2.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/projects/visionflow2.html</loc>
+        <loc>/projects/visionflow2.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/404.html</loc>
+        <loc>/404.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/design.html</loc>
+        <loc>/design.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/index.html</loc>
+        <loc>/index.html</loc>
     </url>
     <url>
-        <loc>https://lirecent.com/landing.html</loc>
+        <loc>/invest.html</loc>
+    </url>
+    <url>
+        <loc>/landing.html</loc>
     </url>
 </urlset>
