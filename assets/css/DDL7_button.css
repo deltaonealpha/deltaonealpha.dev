@@ -1,0 +1,36 @@
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dropdownClass:active, dropdownClass.focus, dropdownClass.open, dropdownClass.hover {
+  background-color: #181718 !important;
+  color: #727272 !important;
+  text-decoration: underline !important;
+  outline: 0 !important;
+  /*-webkit-transition: background-color 1000ms linear;*/
+  /*-ms-transition: background-color 1000ms linear;*/
+  /*transition: background-color 1000ms linear;*/
+}
+
+.dropdownClass {
+  /*position: absolute;*/
+  z-index: 1 !important;
+  background: #373737;
+  box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.15) !important;
+  border-style: none;
+  color: #adadad;
+  font-family: Satoshi-Medium;
+  font-size: 14px;
+  border-radius: 5px !important;
+  text-align: center;
+}
+

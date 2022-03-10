@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>/music/main.html</loc>
-    </url>
-    <url>
-        <loc>/projects/dbfa.html</loc>
-    </url>
-    <url>
-        <loc>/projects/delta-nlp.html</loc>
-    </url>
-    <url>
-        <loc>/projects/dvalve2.html</loc>
-    </url>
-    <url>
-        <loc>/projects/lirecent.html</loc>
-    </url>
-    <url>
-        <loc>/projects/phms2.html</loc>
-    </url>
-    <url>
-        <loc>/projects/visionflow2.html</loc>
-    </url>
-    <url>
-        <loc>/404.html</loc>
-    </url>
-    <url>
-        <loc>/design.html</loc>
-    </url>
-    <url>
-        <loc>/index.html</loc>
-    </url>
-    <url>
-        <loc>/invest.html</loc>
-    </url>
-    <url>
-        <loc>/landing.html</loc>
+        <loc>https://deltaonealpha.dev/</loc>
     </url>
 </urlset>

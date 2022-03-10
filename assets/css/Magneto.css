@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Magneto';
+	src: url(/assets/fonts/Magneto-Bold.eot) format('embedded-opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Magneto';
+	src: url(/assets/fonts/Magneto-Bold.ttf) format('truetype'),
+	url(/assets/fonts/Magneto-Bold.svg) format('svg');
+	font-weight: bold;
+	font-style: normal;
+}

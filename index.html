@@ -1,535 +1,881 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>deltaonealpha</title>
-    <meta name="twitter:title" content="deltaonealpha">
-    <meta property="og:description" content="I'm Pranav Balaji, an aerospace engineer and a part-time software developer. As Henry David Thoreau once said, &quot;This world is but a canvas to our imagination&quot;, I dedicate my time towards projects which originate from daily inspiration and solve modern issues.
-I base my life on Johan Cruyff's quote, &quot;Elk nadeel heeft zijn voordeel.&quot;, literal for &quot;Every disadvantage has its advantage&quot;.">
+    <title>Pranav - deltaonealpha</title>
+    <meta name="twitter:title" content="Pranav - deltaonealpha">
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://deltaonealpha.dev/assets/img/android-chrome-512x512.png">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="../assets/img/26439746.jpg">
-    <meta name="twitter:image" content="../assets/img/26439746.jpg">
-    <meta name="description" content="This is deltaonealpha's personal portfolio.">
-    <link rel="icon" type="image/jpeg" sizes="460x460" href="assets/img/26439746.jpg">
-    <link rel="icon" type="image/jpeg" sizes="460x460" href="assets/img/26439746.jpg">
-    <link rel="icon" type="image/jpeg" sizes="460x460" href="assets/img/26439746.jpg">
-    <link rel="icon" type="image/jpeg" sizes="460x460" href="assets/img/26439746.jpg">
-    <link rel="icon" type="image/jpeg" sizes="460x460" href="assets/img/26439746.jpg">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
-    <link rel="stylesheet" href="assets/css/bantayoglight.css">
-    <link rel="stylesheet" href="assets/css/bantayogregular.css">
-    <link rel="stylesheet" href="assets/css/bantayogsemilight.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/Magneto%20Bold.css">
+    <meta name="description" content="Live for the cool factor.">
+    <meta property="og:image" content="https://deltaonealpha.dev/assets/img/android-chrome-512x512.png">
+    <meta name="twitter:description" content="Live for the cool factor.">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/img/apple-touch-icon.png?h=fd19dacc71977c4b190af2f37f3e81a1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?h=fd19dacc71977c4b190af2f37f3e81a1">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?h=38d5f4cb4d5df7eb96341fe61dbefcd2">
+    <link rel="icon" type="image/png" sizes="180x180" href="/assets/img/apple-touch-icon.png?h=fd19dacc71977c4b190af2f37f3e81a1">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/android-chrome-192x192.png?h=c4694dbf75a75c25f2ed36e4005b714f">
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/android-chrome-512x512.png?h=c4694dbf75a75c25f2ed36e4005b714f">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata&amp;display=swap">
+    <link rel="stylesheet" href="/assets/css/Magneto.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/DDL7_button.css?h=f01d08c16c8298b91b8b821d7aebc25a">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="assets/css/Loading-Div.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/styles.css?h=69c846d79777ea9533e6be2f3d743c74">
 </head>
 
-<body id="body" style="background: #121314;padding: 5px;">
-    <div id="ldiv-1" class="loadingdiv" style="text-align: center;background: rgb(0,0,0);backdrop-filter: sepia(90%);;backdrop-filter: blur(4px);"><img class="loadingdivimg" src="assets/img/deltaonealphaportfolio.png" style="width: 250px;height: 23px;margin-top: 0px;margin-left: 0px;margin-right: 50px;margin-bottom: 50px;text-align: center;"></div>
-    <header class="text-center text-white masthead" id="header" style="background: url(&quot;assets/img/profile_header.png&quot;) bottom / auto no-repeat, #0B0B0B;height: 550px;opacity: 1;">
-        <div class="overlay" style="opacity: 0.30;background: rgb(33, 37, 41);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-xxl-12 text-start mx-auto position-relative" style="padding-right: 23px;padding-left: 23px;text-align: left;">
-                    <div style="text-align: left;color: #d1d1d1;"><a class="navbar-brand classtext classtextdx" id="headertile" href="#" style="font-family: bantayogsemilight;color: #d1d1d1;"><img src="https://avatars.githubusercontent.com/u/26439746?v=4" style="width: 22px;height: 22px;margin-bottom: 9px;margin-right: 5px;color: #d1d1d1;border-radius: 50%;">D E L T A O N E A L P H A</a></div>
-                    <h1 class="classtext" style="color: #d1d1d1;font-size: 28px;text-align: left;font-family: 'Nunito Sans', sans-serif;"><em>Do everything for the </em><span style="font-family: 'Magneto Bold';font-style: italic;">Cool Factor</span><em>.</em></h1><style>
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:20px;
-	left:20px;
-	background-color:#2f2f2f;
-	color:#d1d1d1;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 15px 10px rgb(14,14,14);
-    transition: 0.79s;
-    padding-top:12px;
-    padding-left:4.5px;
-}
-
-.my-float{
-	margin-top:18px;
-}
-.float:hover {
-  background-color: #d1d1d1;
-  color: #181818;
-}    
-
-</style>
-<a id="bttriggertheme" href="#" class="float classbgr3" style="font-size: 23px">
-<svg class="my-float" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path><line x1="9.7" y1="17" x2="14.3" y2="17"></line></svg>
-</a>
-                    <h1 style="color: #adadad;font-size: 21px;text-align: left;font-family: 'Nunito Sans', sans-serif;"></h1>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="container" id="containeropacity">
-        <div style="padding-right: 11px;padding-left: 11px;">
-            <div class="col-lg-12 col-xl-12 col-xxl-12 my-auto order-lg-1 showcase-text classbgr" style="padding-left: 21px;padding-bottom: 21px;padding-right: 21px;padding-top: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;">
-                <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-size: 16px;">I'm Pranav Balaji, an aerospace engineer and a part-time software developer."<strong><em>Elk nadeel heeft zijn voordeel.</em></strong>", as they say, I create solutions that emerge from modern issues.</p>
-            </div>
-        </div>
-    </div>
-    <div></div>
+<body style="background: #111111;padding-bottom: 54px;">
     <div class="container">
-        <div>
-            <div class="row" style="margin-top: 34px;margin-right: -1px;margin-left: -1px;">
-                <div class="col-12 col-md-7" style="padding-right: 0px;padding-left: 0px;">
-                    <div class="classbgr" style="margin-top: 11px;margin-bottom: 11px;padding-top: 21px;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;margin-right: 11px;margin-left: 11px;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;">Projects</h1>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext classbgr2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>LIRECENT</a>
-                            <div class="collapse" id="collapse-1">
-                                <p class="lead classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;padding-top: 11px;">Lirecent is a reading platform for all and sundry, <em>backed by privacy, driven by smarts.</em> It offers well-composed literature from amateur and experienced writers alike, backed by our extensive recommendation and analysis system which ensures you get content tailor-fit to you, every time.<br>Lirecent also has <em>Food Blocks</em>, a way for our users to create and share recipes with the world!</p>
-                                <div style="padding-right: 11px;padding-left: 11px;padding-bottom: 11px;"><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="https://lirecent.com/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>lirecent.com</a><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="projects/lirecent.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>More about Lirecent</a></div>
+        <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 offset-sm-0 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-2">
+                <div style="margin-top: 54px;"><button class="btn btn-primary" id="navig_home" type="button" style="padding: 0px;color: #f9f9f9;font-size: 18px;/*font-weight: bold;*/background: transparent;border-style: none;margin-right: 18px;font-weight: bold;" onclick="homeTabDisplay();">Home</button><button class="btn btn-primary" id="navig_dashboard" type="button" style="padding: 0px;color: #f9f9f9;font-size: 12px;/*font-weight: bold;*/background: transparent;border-style: none;margin-right: 18px;" onclick="dashboardTabDisplay();">Dashboard</button><button class="btn btn-primary" id="navig_resume" type="button" style="padding: 0px;color: #f9f9f9;font-size: 12px;/*font-weight: bold;*/background: transparent;border-style: none;margin-right: 18px;" onclick="resumeTabDisplay();">Resume</button><a href="https://drive.deltaonealpha.dev//" style="font-size: 12px;color: #f9f9f9;text-decoration: none;margin-right: 18px;">Drive</a><a href="https://lirecent.com" style="font-size: 12px;color: #f9f9f9;text-decoration: none;margin-right: 18px;">Lirecent</a></div>
+                <div id="homeTab">
+                    <div style="margin-top: 54px;">
+                        <div class="row">
+                            <div class="col-8">
+                                <h1 style="color: #f9f9f9;font-size: 54.899px;font-weight: bold;margin-bottom: 0px;">Pranav Balaji</h1>
+                                <h1 style="color: #e9e9e9;font-size: 18px;padding-top: 9px;font-weight: 500;">Lead at Lirecent Platforms<br>Aerospace student | Developer</h1>
                             </div>
+                            <div class="col-4" style="text-align: right;padding-top: 9px;"><img src="/assets/img/photo_2021-12-18_16-09-55.jpg?h=8953f05fa2aa372dfc752f96098f48ed" style="width: 92px;height: 92px;border-radius: 50%;"></div>
                         </div>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext classbgr2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-2" href="#collapse-2" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>PHMS</a>
-                            <div class="collapse" id="collapse-2">
-                                <p class="lead classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;padding-top: 11px;">The&nbsp;<em>Patient Health Monitoring System</em>&nbsp;is a framework capable of returning ECG scans, monitoring pulse, temperature, motion and autonomously handling a patient's glucose drip, all while up-linking data to a common dashboard monitored by doctors in real-time. Machine learning instruction-set lets PHMS alert doctors of irregular patterns.<br></p>
-                                <div style="padding-right: 11px;padding-left: 11px;padding-bottom: 11px;"><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="projects/phms2.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>More about PHMS2</a></div>
-                            </div>
-                        </div>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext classbgr2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-3" href="#collapse-3" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>DELTA-NLP</a>
-                            <div class="collapse" id="collapse-3">
-                                <p class="lead classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;padding-top: 11px;">DELTA-NLP is an advanced under-development library of literary constructors and de-constructors, which can breakdown sentences and also create meaningful sentences from random word dumps. It can identify emotions and word types to lay out the perfect sentence. DELTA-NLP paves the way for more advanced open-source conversational machines.<br></p>
-                                <div style="padding-right: 11px;padding-left: 11px;padding-bottom: 11px;"><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="projects/delta-nlp.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>More about DELTA-NLP</a></div>
-                            </div>
-                        </div>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext classbgr2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-4" href="#collapse-4" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>VISIONFLOW</a>
-                            <div class="collapse" id="collapse-4">
-                                <p class="lead classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;padding-top: 11px;">Visionflow2 is a pair of spectacles with sensory equipment embedded in its polycarbonate frame, offering navigation by the means of haptics for patients with vision troubles or acute spondylosis. It implements a split-PCB model across both sides of the frame with effortless and wireless inter-rim communication. <br><strong><em>Visionflow has won multiple awards at national level events and exhibitions.</em></strong><br></p>
-                                <div style="padding-right: 11px;padding-left: 11px;padding-bottom: 11px;"><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="projects/visionflow2.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>More about Visionflow2</a></div>
-                            </div>
-                        </div>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext classbgr2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-5" href="#collapse-5" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>DVALVE</a>
-                            <div class="collapse" id="collapse-5">
-                                <p class="lead classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;padding-top: 11px;">DVALVE2 is a tap attachment for urban homes, complete with sensors and logic cores, helping save water by automatically terminating water flow when the bucket placed underneath gets filled. DVALVE2 uses solenoids and miniature pumps to achieve this, controlled by a central microcontroller. DVALVE2 also has IoT connected capabilities.<br></p>
-                                <div style="padding-right: 11px;padding-left: 11px;padding-bottom: 11px;"><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="projects/dvalve2.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>More about DVALVE2</a></div>
-                            </div>
-                        </div>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext classbgr2" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-6" href="#collapse-6" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>DBFA MANAGER</a>
-                            <div class="collapse" id="collapse-6">
-                                <p class="lead classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;padding-top: 11px;">DBFA is a fully complete, advanced store manager written in Python. It takes care of everything revolving a store, from inventory to billing, from earnings to statistics.<br>Additionally, it comes loaded with DBFA Employee Manager, a way to manage, schedule and pay your employees.<br></p>
-                                <div style="padding-right: 11px;padding-left: 11px;padding-bottom: 11px;"><a class="btn btn-primary classtext classbgr" role="button" style="width: 100%;background: #181818;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;" href="projects/dbfa.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                            <polyline points="7 7 12 12 7 17"></polyline>
-                                            <polyline points="13 7 18 12 13 17"></polyline>
-                                        </svg>More about DBFA</a></div>
-                            </div>
-                        </div>
+                        <h1 style="color: #adadad;font-size: 15px;padding-top: 18px;">Making literature open for all and sundry. Working on breakthrough designs.<br><br></h1>
                     </div>
-                    <div class="classbgr" style="padding-top: 21px;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;margin-top: 11px;margin-right: 11px;margin-bottom: 11px;margin-left: 11px;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 11px;">Work Experience</h1>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-7" href="#collapse-7" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>View</a>
-                            <div class="collapse" id="collapse-7">
-                                <div style="padding-bottom: 11px;">
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">SR. BACKEND&nbsp;DEVELOPER <br>BfLOCKCHAIN</h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">2021-Present</p>
-                                    </div>
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">FREELANCER</h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">2019-Present</p>
-                                    </div>
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">FOUNDER, LIRECENT</h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">2020-Present</p>
-                                    </div>
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">PRESIDENT, CODE</h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">2016-2020</p>
-                                    </div>
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 16px 7px rgba(0,0,0,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">REGIONAL&nbsp;LEAD, HACKCLUB</h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">2019-2020</p>
-                                    </div>
+                    <div style="margin-top: 54px;">
+                        <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 9px;">Pro(ducts/ jects)</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-7 col-sm-7 col-md-5 col-lg-5 col-xl-5">
+                            <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#edd0ad, #adcaed 98%);">
+                                <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_lirecent();">
+                                    <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Lirecent Literature</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">A literature platform for all and sundry, driven by smarts, backed by privacy.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_lirecent();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                        </svg>More</button>
                                 </div>
                             </div>
                         </div>
-                        <div></div><a class="btn btn-primary classbgr3" role="button" style="width: 100%;background: #2f2f2f;border-style: none;border-radius: 5px;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 10px rgb(14,14,14);margin-top: 11px;color: #d1d1d1;" href="https://server.deltaonealpha.workers.dev/Secure/pranavcvpdf.pdf" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-diff" style="padding-bottom: 2px;margin-right: 4px;">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
-                                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
-                                <line x1="12" y1="10" x2="12" y2="14"></line>
-                                <line x1="10" y1="12" x2="14" y2="12"></line>
-                                <line x1="10" y1="17" x2="14" y2="17"></line>
-                            </svg>Curriculum Vitae</a>
-                    </div>
-                    <div class="classbgr" style="padding-top: 21px;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;margin-top: 11px;margin-right: 11px;margin-bottom: 11px;margin-left: 11px;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 11px;">Education</h1>
-                        <div class="classtext classbgr2" style="background: #0c0d0e;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;padding-top: 11px;padding-right: 11px;padding-bottom: 11px;padding-left: 11px;"><a class="btn btn-primary classtext" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-8" href="#collapse-8" role="button" style="background: transparent;border-style: none;width: 100%;text-align: left;color: #d1d1d1;font-weight: bold;font-family: 'Nunito Sans', sans-serif;padding-bottom: 0px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevron-right" style="margin-right: 5px;margin-bottom: 2px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="9 6 15 12 9 18"></polyline>
-                                </svg>View</a>
-                            <div class="collapse" id="collapse-8">
-                                <div style="padding-bottom: 11px;">
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">BACHELORS IN&nbsp;AEROSPACE</h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">SRM University, India</p>
-                                    </div>
-                                    <div class="classtext classbgr" style="padding-top: 11px;padding-right: 15px;padding-bottom: 9px;padding-left: 15px;background: #181818;border-radius: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 9px;">
-                                        <h1 class="text-uppercase classtext" style="color: #d1d1d1;font-size: 16px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 0px;">Diploma in Video Games CreatioN<br></h1>
-                                        <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #adadad;text-align: justify;">Kaakkois-Suomen ammattikorkeakoulu - XAMK Open University of Applied Sciences, Finland</p>
-                                    </div>
+                        <div class="col-5 col-sm-5 col-md-7 col-lg-7 col-xl-3">
+                            <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adcaed, rgb(225,126,120));">
+                                <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_phms();">
+                                    <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">PHMS</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">A framework capable of monitoring and centralizing patient healthcare by working with the cloud.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_phms();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                        </svg>More</button>
                                 </div>
                             </div>
                         </div>
-                        <div></div><a class="btn btn-primary classbgr3" role="button" style="width: 100%;background: #2f2f2f;border-style: none;border-radius: 5px;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 10px rgb(14,14,14);margin-top: 11px;color: #d1d1d1;" href="https://server.deltaonealpha.workers.dev/Secure/pranavcvpdf.pdf" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-diff" style="padding-bottom: 2px;margin-right: 4px;">
+                        <div class="col-5 col-sm-5 col-md-7 col-lg-3 col-xl-4">
+                            <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adcaed 0%, #edd0ad 100%);">
+                                <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_liquidVision();">
+                                    <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Liquid Vision</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Haptic-based navigation for people with ailments relating to vision and movement, built into one's glasses.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_liquidVision"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                        </svg>More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-5 col-lg-3">
+                            <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(rgb(225,126,120) 0%, #adcaed 100%);">
+                                <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_dvalve();">
+                                    <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">D-Valve</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">A tap attachment for urban homes that automatically cuts-off the water supply once the container underneath it is filled, enriched with IoT capabilities.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_dvalve();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                        </svg>More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-7 col-sm-7 col-md-6 col-lg-3 col-xl-5">
+                            <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adedd2, rgb(185,120,225));">
+                                <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_agrotes();">
+                                    <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Agrotes</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Autonomous and self-sustaining food production pods with a controlled internal environment</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_agrotes();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                        </svg>More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-6 col-lg-3 col-xl-4">
+                            <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adedb0, #adcaed 98%);">
+                                <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;">
+                                    <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Luftorgel</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">An autonomous fixed (tail)-wing UAV capable of delivering medical support to the most remote places on the planet, complete with a global centralized management network.</h1><button class="btn btn-primary disabled" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                            <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                        </svg>More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 9px;margin-top: 54px;">Downloads</h1><a class="btn btn-primary" role="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-bottom: 15px;font-size: 14px;padding-right: 9px;padding-left: 9px;padding-top: 15px;margin-right: 9px;" href="https://drive.deltaonealpha.dev/cv-old.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file" style="margin-right: 6px;margin-bottom: 2px;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                            <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                        </svg>Resume</a><a class="btn btn-primary" role="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-bottom: 15px;font-size: 14px;padding-right: 9px;padding-left: 9px;padding-top: 15px;" href="https://drive.deltaonealpha.dev//"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-database" style="margin-right: 6px;margin-bottom: 2px;">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
+                            <path d="M4 6v6a8 3 0 0 0 16 0v-6"></path>
+                            <path d="M4 12v6a8 3 0 0 0 16 0v-6"></path>
+                        </svg>More | Drive Index</a>
+                    <div class="dropup"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="border-color: #393939;background: #393939;font-size: 14px;text-align: left;margin-top: 9px;margin-right: 9px;padding-top: 15px;padding-right: 9px;padding-bottom: 15px;padding-left: 9px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-apps" style="margin-right: 6px;margin-bottom: 2px;">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
-                                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
-                                <line x1="12" y1="10" x2="12" y2="14"></line>
-                                <line x1="10" y1="12" x2="14" y2="12"></line>
-                                <line x1="10" y1="17" x2="14" y2="17"></line>
-                            </svg>Curriculum Vitae</a>
+                                <rect x="4" y="4" width="6" height="6" rx="1"></rect>
+                                <rect x="4" y="14" width="6" height="6" rx="1"></rect>
+                                <rect x="14" y="14" width="6" height="6" rx="1"></rect>
+                                <line x1="14" y1="7" x2="20" y2="7"></line>
+                                <line x1="17" y1="4" x2="17" y2="10"></line>
+                            </svg>DBFA Manager (deprecated)&nbsp;</button>
+                        <div class="dropdown-menu" data-aos="slide-up" style="background: #1e1f238a;-webkit-backdrop-filter: blur(9px);backdrop-filter: blur(9px);padding: 18px;padding-right: 18px;padding-left: 18px;padding-top: 18px;padding-bottom: 18px;width: 279px;margin-bottom: 18px;border-radius: 9px;"><a class="btn btn-primary" role="button" style="background: #1e1f238a;text-align: left;padding-bottom: 9px;font-size: 14px;padding-right: 9px;padding-left: 9px;padding-top: 9px;margin-right: 9px;width: 100%;border-style: none;" href="https://github.com/deltaonealpha/DBFA/raw/master/docs/dbfadocs-Inception-1.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file" style="margin-right: 6px;margin-bottom: 2px;">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                </svg>Documentation</a><a class="btn btn-primary" role="button" style="background: #1e1f238a;margin-top: 9px;text-align: left;padding-bottom: 9px;font-size: 14px;padding-right: 9px;padding-left: 9px;padding-top: 9px;margin-right: 9px;width: 100%;border-style: none;" href="https://github.com/deltaonealpha/DBFA/archive/master.zip"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-code" style="margin-right: 6px;margin-bottom: 2px;">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                    <path d="M10 13l-1 2l1 2"></path>
+                                    <path d="M14 13l1 2l-1 2"></path>
+                                </svg>Latest Source</a><a class="btn btn-primary" role="button" style="background: #1e1f238a;margin-top: 9px;text-align: left;padding-bottom: 9px;font-size: 14px;padding-right: 9px;padding-left: 9px;padding-top: 9px;margin-right: 9px;width: 100%;border-style: none;" href="https://github.com/deltaonealpha/DBFA/releases/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-apps" style="margin-right: 6px;margin-bottom: 2px;">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="6" height="6" rx="1"></rect>
+                                    <rect x="4" y="14" width="6" height="6" rx="1"></rect>
+                                    <rect x="14" y="14" width="6" height="6" rx="1"></rect>
+                                    <line x1="14" y1="7" x2="20" y2="7"></line>
+                                    <line x1="17" y1="4" x2="17" y2="10"></line>
+                                </svg>Latest Release</a><a class="btn btn-primary" role="button" style="background: #1e1f238a;text-align: left;padding-bottom: 9px;font-size: 14px;padding-right: 9px;padding-left: 9px;padding-top: 9px;margin-right: 9px;width: 100%;border-style: none;margin-top: 9px;" href="https://github.com/deltaonealpha/DBFA/releases"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-history" style="margin-right: 6px;margin-bottom: 2px;">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="12 8 12 12 14 14"></polyline>
+                                    <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5"></path>
+                                </svg>Previous Releases</a></div>
                     </div>
                 </div>
-                <div class="col" style="margin-top: 11px;padding-right: 11px;padding-left: 11px;">
-                    <div class="classbgr" style="padding-top: 21PX;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;">Blog</h1>
-                        <div id="blog_image" style="border-radius: 9px;border-style: none;background:linear-gradient(to right, #4b79a1, #283e51);"></div>
-                        <div id="blog_image-1" style="border-radius: 9px;border-style: none;background: linear-gradient(to right, #4b79a1, #135058);">
-                            <div class="classtext" style="padding-top: 15px;padding-right: 15px;padding-bottom: 15px;padding-left: 15px;background: rgba(12,13,14,0.55);border-radius: 9px;margin-top: 11px;">
-                                <h1 class="text-uppercase" id="blog_h" style="color: #d1d1d1;font-size: 18px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 11px;white-space: nowrap;         overflow: hidden;         text-overflow: clip;">heading</h1>
-                                <p class="lead" id="blog_description" style="font-family: 'Nunito Sans', sans-serif;font-size: 16px;color: #d1d1d1;text-align: left;margin-top: -11px;margin-bottom: 0px;">blogdescription</p>
-                                <p class="lead text-uppercase" id="blog_date" style="font-family: 'Nunito Sans', sans-serif;font-size: 14px;color: #d1d1d1;text-align: left;margin-top: -5px;margin-bottom: 5px;">blogdescription</p>
-                                <div id="blogtagwritehere" style="margin-bottom: 5px;margin-top: -5px;"></div><a class="btn btn-primary" role="button" id="blog_link" style="width: 100%;background: rgba(24,24,24,0.75);border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;" href="https://dev.to/deltaonealpha" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-up-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M9 7h8v8"></path>
-                                        <path d="M5 11h8v8"></path>
-                                    </svg>Read on dev.to</a>
+                <div id="dashboardTab" style="display: none;margin-bottom: -54px;">
+                    <div style="margin-top: 54px;">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 style="color: #f9f9f9;font-size: 45.9px;font-weight: bold;margin-bottom: 0px;">Dashboard</h1>
                             </div>
-                        </div><script>
-async function getArticle() {
-	const response = await fetch("https://dev.to/api/articles?username=deltaonealpha")
-	const data = await response.json();
-    console.log(data[0])
-
-
-document.getElementById("blog_h").innerHTML = (data)[0]["title"];
-document.getElementById("blog_description").innerHTML = (data)[0]["description"];
-document.getElementById("blog_link").href = (data)[0]["url"];
-document.getElementById("blog_date").innerHTML = (data)[0]["readable_publish_date"];
-
-const array = ((data)[0]["tag_list"]);
-array.forEach(function (item, index) {
-    document.getElementById("blogtagwritehere").innerHTML += ("<button class='btn btn-primary text-uppercase classbgr3' type='button' style='font-size: 13px;padding-top: 3px;padding-right: 7px;margin-right: 5px;padding-bottom: 3px;padding-left: 7px;border-radius: 3px;background: rgba(24,24,24,0.75);border-style: none;font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;font-weight: bold;margin-right: 5px;'>#"+item+"</button>");
-});}
-getArticle();
-</script><a class="btn btn-primary classbgr3" role="button" style="width: 100%;background: #2f2f2f;border-style: none;border-radius: 5px;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 10px rgb(14,14,14);color: #d1d1d1;margin-top: 21px;" href="music/main.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-up-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M9 7h8v8"></path>
-                                <path d="M5 11h8v8"></path>
-                            </svg>MORE</a>
+                        </div>
                     </div>
-                    <div class="classbgr" style="padding-top: 21px;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;margin-top: 11px;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 11px;">Music by me</h1><a class="btn btn-primary classbgr3" role="button" style="width: 100%;background: #2f2f2f;border-style: none;border-radius: 5px;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 10px rgb(14,14,14);color: #d1d1d1;" href="music/main.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-chevrons-up-right" style="padding-bottom: 2px;margin-right: 4px;">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M9 7h8v8"></path>
-                                <path d="M5 11h8v8"></path>
-                            </svg>SINCLAIR</a>
+                    <div class="row" style="margin-top: 18px;">
+                        <div class="col-lg-12">
+                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">This page tracks certain metrics and lists some of my recent works</h1>
+                            <div class="row" style="margin-top: 18px;">
+                                <div class="col">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adedb3, rgb(225,208,120));">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;">
+                                            <h1 style="color: #e9e9e9;font-size: 15.9px;margin-bottom: 0px;">Github Followers</h1>
+                                            <h1 id="metrics_github" style="color: #adadad;font-size: 14px;padding-top: 5px;font-weight: normal;">Loading</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 27px;">
+                                <div class="col-12 col-md-6" style="margin-bottom: 54px;">
+                                    <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 5px;">Medium Articles</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 36px;font-weight: normal;">I occasionally write, here are some of my recent works.</h1>
+                                    <div id="loading_spinnertextdiv" style="text-align: center;"><div class="lds-ripple"><div></div><div></div></div>
+
+<style>
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+</style>
+                                        <h1 class="text-uppercase" style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 18px;font-weight: normal;letter-spacing: 9px;">Loading</h1>
+                                    </div>
+                                    <div id="mediumarticlesprintherediv" style="display:none;all;"></div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 5px;">Dev.to Articles</h1>
+                                    <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 36px;font-weight: normal;">Here are my blog articles from dev.to</h1>
+                                    <div id="loading_spinnertextdiv-1" style="text-align: center;"><div class="lds-ripple"><div></div><div></div></div>
+
+<style>
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+</style>
+                                        <h1 class="text-uppercase" style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 18px;font-weight: normal;letter-spacing: 9px;">Loading</h1>
+                                    </div>
+                                    <div id="twitterarticlesprintherediv" style="display:none;all;"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="classbgr" style="padding-top: 21px;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;box-shadow: 5px 2px 20px 7px #0c0c0c;margin-top: 11px;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 11px;">Links &amp;&nbsp;Downloads</h1>
-                        <div><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);" href="https://server.deltaonealpha.workers.dev/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-download" style="padding-bottom: 2px;margin-right: 4px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                                    <polyline points="7 11 12 16 17 11"></polyline>
-                                    <line x1="12" y1="4" x2="12" y2="16"></line>
-                                </svg>Downloads Index</a></div>
-                        <div class="dropdown"><button class="btn btn-primary dropdown-toggle classtext classbgr2" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="width: 100%;padding-top: 9px;padding-right: 21px;padding-bottom: 9px;padding-left: 21px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;background: #0c0d0e;border-style: none;border-radius: 5px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-store" style="padding-bottom: 2px;margin-right: 4px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <line x1="3" y1="21" x2="21" y2="21"></line>
-                                    <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4"></path>
-                                    <line x1="5" y1="21" x2="5" y2="10.85"></line>
-                                    <line x1="19" y1="21" x2="19" y2="10.85"></line>
-                                    <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4"></path>
-                                </svg>DBFA (deprecated)</button>
-                            <div class="dropdown-menu" style="border-radius: 4px;background: #d1d1d1;width: 100%;box-shadow: 5px 2px 15px 4px #0c0c0c;"><a class="dropdown-item" href="https://github.com/deltaonealpha/DBFA/raw/master/docs/dbfadocs-Inception-1.pdf" style="font-family: 'Nunito Sans', sans-serif;font-weight: bold;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-download" style="padding-bottom: 2px;margin-right: 4px;">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                                        <polyline points="7 11 12 16 17 11"></polyline>
-                                        <line x1="12" y1="4" x2="12" y2="16"></line>
-                                    </svg>Documentation</a><a class="dropdown-item" href="https://github.com/deltaonealpha/DBFA/archive/master.zip" style="font-family: 'Nunito Sans', sans-serif;font-weight: bold;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-download" style="padding-bottom: 2px;margin-right: 4px;">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                                        <polyline points="7 11 12 16 17 11"></polyline>
-                                        <line x1="12" y1="4" x2="12" y2="16"></line>
-                                    </svg>Latest Source</a><a class="dropdown-item" href="https://github.com/deltaonealpha/DBFA/releases/" style="font-family: 'Nunito Sans', sans-serif;font-weight: bold;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-download" style="padding-bottom: 2px;margin-right: 4px;">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                                        <polyline points="7 11 12 16 17 11"></polyline>
-                                        <line x1="12" y1="4" x2="12" y2="16"></line>
-                                    </svg>Latest Release<br></a><a class="dropdown-item" href="https://github.com/deltaonealpha/DBFA/releases" style="font-family: 'Nunito Sans', sans-serif;font-weight: bold;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-download" style="padding-bottom: 2px;margin-right: 4px;">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                                        <polyline points="7 11 12 16 17 11"></polyline>
-                                        <line x1="12" y1="4" x2="12" y2="16"></line>
-                                    </svg>Previous Releases</a></div>
-                        </div><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;" href="https://server.deltaonealpha.workers.dev/Secure/pranavcvpdf.pdf" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-diff" style="padding-bottom: 2px;margin-right: 4px;">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
-                                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
-                                <line x1="12" y1="10" x2="12" y2="14"></line>
-                                <line x1="10" y1="12" x2="14" y2="12"></line>
-                                <line x1="10" y1="17" x2="14" y2="17"></line>
-                            </svg>Curriculum Vitae</a>
+                </div>
+                <div id="resumeTab" style="display:none;all;">
+                    <div style="margin-top: 54px;">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 style="color: #adadad;font-size: 27.9px;margin-bottom: -5px;">home/resume</h1>
+                                <h1 style="color: #f9f9f9;font-size: 45.9px;font-weight: bold;margin-bottom: 0px;">Pranav Balaji</h1>
+                                <h1 style="color: #adadad;font-size: 18px;padding-top: 9px;font-weight: 500;">Last updated - March 09, 2022</h1>
+                            </div>
+                        </div>
                     </div>
-                    <div class="classbgr" style="padding-top: 21px;padding-right: 21px;padding-bottom: 28px;padding-left: 21px;background: #191A1C;border-radius: 9px;margin-top: 11px;box-shadow: 5px 2px 20px 7px #0c0c0c;">
-                        <h1 class="classtext" style="color: #d1d1d1;font-size: 24px;text-align: left;font-family: 'Nunito Sans', sans-serif;margin-bottom: 11px;">Find Me</h1>
-                        <div><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);" href="https://t.me/deltaonealpha"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-telegram" style="padding-bottom: 2px;margin-right: 4px;">
+                    <div class="row" style="margin-top: 18px;">
+                        <div class="col-lg-12">
+                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Passionate aerospace student and developer bringing forth a motivated attitude, and a variety of skills. Experienced with the latest development tools and procedures. Able to self-manage, as well as collaborate as part of a productive team.</h1>
+                            <div class="row" style="margin-top: 36px;">
+                                <div class="col-6">
+                                    <h1 style="color: #adadad;font-size: 14px;margin-bottom: 0px;font-weight: bold;">Contact</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 14px;margin-bottom: 0px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                                            <polyline points="3 7 12 13 21 7"></polyline>
+                                        </svg>balaji.pranav@outlook.in<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-phone-call" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                                            <path d="M15 7a2 2 0 0 1 2 2"></path>
+                                            <path d="M15 3a6 6 0 0 1 6 6"></path>
+                                        </svg>+91 8700 810001<br><br>New Delhi, India</h1>
+                                </div>
+                                <div class="col-6" style="padding-left: 0px;">
+                                    <h1 style="color: #adadad;font-size: 14px;margin-bottom: 0px;font-weight: bold;">Languages</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 14px;margin-bottom: 0px;font-weight: normal;">English&nbsp; &nbsp;<span class="float-end">C2<i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;margin-left: 3px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i></span><br>Hindi&nbsp; &nbsp; &nbsp;&nbsp;<span class="float-end">C2<i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;margin-left: 3px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i></span><br>Tamil&nbsp; &nbsp; &nbsp;<span class="float-end">C1<i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;margin-left: 3px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="far fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: rgb(237,173,173);"></i><i class="far fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: rgb(237,173,173);"></i></span>&nbsp;<br>French<span class="float-end">B1<i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;margin-left: 3px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="fas fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: #b0aded;"></i><i class="far fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: rgb(237,173,173);"></i><i class="far fa-circle" style="margin-right: 1px;margin-bottom: 0px;color: rgb(237,173,173);"></i></span>&nbsp; &nbsp;&nbsp;</h1>
+                                </div>
+                            </div>
+                            <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 5px;font-weight: bold;padding-bottom: 9px;margin-top: 36px;">Employment History</h1>
+                            <div class="row">
+                                <div class="col">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#edadbc, #b0aded 98%);">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;">
+                                            <h1 style="color: #e9e9e9;font-size: 15.9px;margin-bottom: 0px;">Founder, Lirecent Platforms</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Founded and incorporated an open literature platform with AI and ML driven approaches to content recommendation. Targeting a high global audience.</h1>
+                                            <h1 style="color: #b0aded;font-size: 12.9px;margin-bottom: 0px;margin-top: 9px;">November 2021 - Present</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adedb3, rgb(225,208,120));">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;">
+                                            <h1 style="color: #e9e9e9;font-size: 15.9px;margin-bottom: 0px;">Senior Django Developer, BfLOCKCHAIN</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Worked on, and lead teams to create the world's first blockchain-driven commercial pharmaceutical traceability and verification solution.</h1>
+                                            <h1 style="color: #b0aded;font-size: 12.9px;margin-bottom: 0px;margin-top: 9px;">October 2021 - January 2021</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adcaed, rgb(225,126,120));">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;">
+                                            <h1 style="color: #e9e9e9;font-size: 15.9px;margin-bottom: 0px;">Freelance Software Developer</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-book" style="margin-right: 6px;margin-bottom: 3px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                                                    <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+                                                    <line x1="3" y1="6" x2="3" y2="19"></line>
+                                                    <line x1="12" y1="6" x2="12" y2="19"></line>
+                                                    <line x1="21" y1="6" x2="21" y2="19"></line>
+                                                </svg>Delivered an educational platform with over 10k monthly active users<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-currency-rupee" style="margin-right: 6px;margin-bottom: 3px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <path d="M18 6h-11h3a4 4 0 0 1 0 8h-3l6 6"></path>
+                                                    <line x1="7" y1="10" x2="18" y2="10"></line>
+                                                </svg>Developed a chatbot to one's handle financial holdings<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-paperclip" style="margin-right: 6px;margin-bottom: 3px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9l6.5 -6.5"></path>
+                                                </svg>Worked on RESTful API systems</h1>
+                                            <h1 style="color: #b0aded;font-size: 12.9px;margin-bottom: 0px;margin-top: 9px;">September 2021 - Present</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 54px;">
+                                <div class="col-12 col-md-6" style="margin-bottom: 54px;">
+                                    <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 9px;">Education</h1>
+                                    <h1 style="color: #b0aded;font-size: 18px;margin-bottom: 5px;font-weight: bold;">Bachelor of Engineering in Aerospace</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-pavilon" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7"></path>
+                                            <line x1="6" y1="21" x2="6" y2="12"></line>
+                                            <line x1="18" y1="21" x2="18" y2="12"></line>
+                                            <path d="M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3"></path>
+                                        </svg>SRM Institute of Science and Technology, India<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-clock" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <polyline points="12 7 12 12 15 15"></polyline>
+                                        </svg>2021 - 2025</h1>
+                                    <h1 style="color: #b0aded;font-size: 18px;margin-bottom: 5px;font-weight: bold;">Diploma in Video Games Creation</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-pavilon" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7"></path>
+                                            <line x1="6" y1="21" x2="6" y2="12"></line>
+                                            <line x1="18" y1="21" x2="18" y2="12"></line>
+                                            <path d="M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3"></path>
+                                        </svg>Kaakkois-Suomen ammattikorkeakoulu, XAMK Open University of Applied Sciences, Finland<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-clock" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <polyline points="12 7 12 12 15 15"></polyline>
+                                        </svg>2021 - 2022</h1>
+                                    <h1 style="color: #b0aded;font-size: 18px;margin-bottom: 5px;font-weight: bold;">CBSE Board (Grades 11 - 12)<br></h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-pavilon" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7"></path>
+                                            <line x1="6" y1="21" x2="6" y2="12"></line>
+                                            <line x1="18" y1="21" x2="18" y2="12"></line>
+                                            <path d="M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3"></path>
+                                        </svg>Apeejay NOIDA<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-clock" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <polyline points="12 7 12 12 15 15"></polyline>
+                                        </svg>2019 - 2021</h1>
+                                    <h1 style="color: #b0aded;font-size: 18px;margin-bottom: 5px;font-weight: bold;">MindMatrix Velocity Vedic Maths Course (Orbit 1 &amp; 2)</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-pavilon" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7"></path>
+                                            <line x1="6" y1="21" x2="6" y2="12"></line>
+                                            <line x1="18" y1="21" x2="18" y2="12"></line>
+                                            <path d="M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3"></path>
+                                        </svg>MindMatrix NOIDA<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-tallymark-1" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        </svg>A+ Grade<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-clock" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <polyline points="12 7 12 12 15 15"></polyline>
+                                        </svg>2018 - 2019</h1>
+                                    <h1 style="color: #b0aded;font-size: 18px;margin-bottom: 5px;font-weight: bold;">CBSE Board (Up to grade 10)<br></h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-building-pavilon" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7"></path>
+                                            <line x1="6" y1="21" x2="6" y2="12"></line>
+                                            <line x1="18" y1="21" x2="18" y2="12"></line>
+                                            <path d="M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3"></path>
+                                        </svg>Apeejay NOIDA<br><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-clock" style="margin-right: 6px;margin-bottom: 3px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <circle cx="12" cy="12" r="9"></circle>
+                                            <polyline points="12 7 12 12 15 15"></polyline>
+                                        </svg>2006 - 2019</h1>
+                                </div>
+                                <div class="col-12 col-md-6" style="margin-bottom: 54px;">
+                                    <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 9px;text-align: left;">Technical Proficiencies</h1>
+                                    <h1 style="color: #f5a17d;font-size: 18px;margin-bottom: 5px;font-weight: bold;text-align: left;">Frontend</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;text-align: left;">React | Bootstrap, CSS</h1>
+                                    <h1 style="color: #f5a17d;font-size: 18px;margin-bottom: 5px;font-weight: bold;text-align: left;">Backend</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;text-align: left;">Next.js, Django, Flask | C (Ulfius)</h1>
+                                    <h1 style="color: #f5a17d;font-size: 18px;margin-bottom: 5px;font-weight: bold;text-align: left;">Database and Storage</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;text-align: left;">PostgreSQL, MySQL, SQLite | Amazon S3</h1>
+                                    <h1 style="color: #f5a17d;font-size: 18px;margin-bottom: 5px;font-weight: bold;text-align: left;">Others</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;text-align: left;">Version control - Git</h1>
+                                    <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 9px;margin-top: 54px;text-align: left;">Research Papers</h1>
+                                    <h1 style="color: #f5847d;font-size: 18px;margin-bottom: 5px;font-weight: bold;text-align: left;">Luftorgel - A hybrid UAV</h1>
+                                    <h1 class="text-break" style="color: #adadad;font-size: 16px;margin-bottom: 18px;font-weight: normal;text-align: left;">Researched, designed, and modeled a hybrid fixed-wing UAV to deliver biological organs to cities with scarce medical availability.<br>Simulation-tested multiple configurations of tailwind dynamics to reach optimum efficiency.<br></h1>
+                                </div>
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col" style="margin-bottom: 54px;">
+                                            <h1 style="color: #e9e9e9;font-size: 21.9px;font-weight: bold;padding-bottom: 9px;margin-bottom: 0px;">Achievements &amp; Awards</h1>
+                                            <h1 class="text-uppercase" style="color: #b0aded;font-size: 16px;margin-bottom: 5px;padding-bottom: 5px;margin-top: 0px;font-weight: bold;">UNIVERSITY</h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 9px;">1st | UAV Design, KCIT Kalam<span class="float-end" style="color: #f5a17d;">2021</span></h1>
+                                            <h1 class="text-uppercase" style="color: #b0aded;font-size: 16px;margin-bottom: 5px;padding-bottom: 5px;margin-top: 27px;font-weight: bold;">SCHOOL</h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">1st |&nbsp;GOONJ Keynote, Apeejay Faridabad<span class="float-end" style="color: #f5a17d;margin-bottom: 18px;">2021</span><br></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">CBSE Science Exhibition 2019-20<span class="float-end" style="color: #f5a17d;margin-bottom: 18px;">2020</span><br></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">1st | Robo Wars, Cambridge NOIDA<span class="float-end" style="color: #f5a17d;margin-bottom: 18px;">2019</span><br></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">2st | Hardware Presentation, SRDAV<span class="float-end" style="color: #f5a17d;margin-bottom: 18px;">2019</span><br></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">1st | "Tech Quiz", Apeejay Sheik Sarai<span class="float-end" style="color: #f5a17d;margin-bottom: 18px;">2018</span><br></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">1st | Software Presentation, SRDAV<span class="float-end" style="color: #f5a17d;margin-bottom: 18px;">2018</span><br></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">2nd | Autonomous Robotics, Sommerville NOIDA<span class="float-end" style="color: #f5a17d;">2017</span><br></h1>
+                                        </div>
+                                        <div class="col" style="margin-bottom: 54px;">
+                                            <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 9px;">Social Participation</h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">Monthly food distribution drives | SSSSO<span class="float-end" style="color: #f5a17d;">2018 - Present</span></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">Distribution of blankets in slums during the winters | SSSSO<span class="float-end" style="color: #f5a17d;">2014 - Present</span></h1>
+                                            <h1 style="color: #d1d1d1;font-size: 16px;margin-bottom: 18px;">Rotary Club Blood Donation Drives<span class="float-end" style="color: #f5a17d;">2017 - 2019</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 9px;font-weight: bold;padding-bottom: 9px;">Projects</h1>
+                            <div class="row">
+                                <div class="col-7 col-sm-7 col-md-5 col-lg-5 col-xl-5">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#edd0ad, #adcaed 98%);">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_lirecent();">
+                                            <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Lirecent Literature</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">A literature platform for all and sundry, driven by smarts, backed by privacy.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_lirecent();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <circle cx="12" cy="12" r="9"></circle>
+                                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                                </svg>More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5 col-sm-5 col-md-7 col-lg-7 col-xl-3">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adcaed, rgb(225,126,120));">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_phms();">
+                                            <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">PHMS</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">A framework capable of monitoring and centralizing patient healthcare by working with the cloud.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_phms();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <circle cx="12" cy="12" r="9"></circle>
+                                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                                </svg>More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5 col-sm-5 col-md-7 col-lg-3 col-xl-4">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adcaed 0%, #edd0ad 100%);">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_liquidVision();">
+                                            <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Liquid Vision</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Haptic-based navigation for people with ailments relating to vision and movement, built into one's glasses.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_liquidVision"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <circle cx="12" cy="12" r="9"></circle>
+                                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                                </svg>More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-sm-7 col-md-5 col-lg-3">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(rgb(225,126,120) 0%, #adcaed 100%);">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_dvalve();">
+                                            <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">D-Valve</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">A tap attachment for urban homes that automatically cuts-off the water supply once the container underneath it is filled, enriched with IoT capabilities.</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_dvalve();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <circle cx="12" cy="12" r="9"></circle>
+                                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                                </svg>More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-sm-7 col-md-6 col-lg-3 col-xl-5">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adedd2, rgb(185,120,225));">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;" onclick="details_agrotes();">
+                                            <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Agrotes</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">Autonomous and self-sustaining food production pods with a controlled internal environment</h1><button class="btn btn-primary" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" onclick="details_agrotes();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <circle cx="12" cy="12" r="9"></circle>
+                                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                                </svg>More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5 col-sm-5 col-md-6 col-lg-3 col-xl-4">
+                                    <div style="padding: 1px;border-radius: 9px;margin-top: 0px;margin-bottom: 18px;background: linear-gradient(#adedb0, #adcaed 98%);">
+                                        <div style="padding: 9px;border-radius: 9px;border: 1px solid #393939;background: #111111;">
+                                            <h1 style="color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;">Luftorgel</h1>
+                                            <h1 style="color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;">An autonomous fixed (tail)-wing UAV capable of delivering medical support to the most remote places on the planet, complete with a global centralized management network.</h1><button class="btn btn-primary disabled" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;" disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-info-circle" style="margin-right: 6px;margin-bottom: 2px;">
+                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                    <circle cx="12" cy="12" r="9"></circle>
+                                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                                </svg>More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 style="color: #e9e9e9;font-size: 21.9px;margin-bottom: 0px;font-weight: bold;padding-bottom: 0px;margin-top: 54px;">Actions</h1><a class="btn btn-primary" role="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-bottom: 27px;font-size: 14px;padding-right: 18px;padding-left: 18px;padding-top: 27px;margin-right: 9px;" href="https://drive.deltaonealpha.dev/cv-old.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file" style="margin-right: 6px;margin-bottom: 2px;">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
-                                </svg>Telegram</a><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;" href="mailto:balaji.pranav@outlook.in?subject=REF:PSNLSITE&amp;body=Reference point: deltaonealpha.dev<br/><i>Please start writing from below this line</i><br/>--------------------------------------------------<br/><br/>"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail" style="padding-bottom: 2px;margin-right: 4px;">
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                </svg>Download as PDF</a><button class="btn btn-primary" id="actionsOptionShare" type="button" style="border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-bottom: 27px;font-size: 14px;padding-right: 18px;padding-left: 18px;padding-top: 27px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file" style="margin-right: 6px;margin-bottom: 2px;">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-                                    <polyline points="3 7 12 13 21 7"></polyline>
-                                </svg>Email</a><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;" href="https://lirecent.com/accounts/deltaonealpha"><img style="margin-right: 4px;padding-bottom: 2px;width: 17px;height: 18px;filter: brightness(100%) grayscale(0%) hue-rotate(0deg) saturate(9%) sepia(52%);" src="assets/img/dwrsplogo.png">Lirecent</a><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;" href="https://twitter.com/deltaonealpha"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter" style="padding-bottom: 2px;margin-right: 4px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-                                </svg>Twitter</a><a class="btn btn-primary classtext classbgr2" role="button" style="width: 100%;background: #0c0d0e;border-style: none;border-radius: 5px;color: #d1d1d1;font-family: 'Nunito Sans', sans-serif;text-align: left;padding-left: 21px;padding-right: 21px;padding-top: 9px;padding-bottom: 9px;box-shadow: 5px 2px 15px 4px rgba(12,12,12,0.67);margin-top: 11px;" href="https://github.com/deltaonealpha"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-github" style="padding-bottom: 2px;margin-right: 4px;">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
-                                </svg>GitHub</a></div>
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                </svg>Share this page</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <section class="showcase">
-        <div class="container-fluid p-0">
-            <div class="row g-0" style="margin-bottom: 12px;margin-top: 52px;">
-                <div class="col-lg-12 col-xl-12 col-xxl-12 my-auto order-lg-1 showcase-text classbgr" style="padding-left: 52px;padding-bottom: 52px;padding-right: 52px;padding-top: 52px;background: #191A1C;border-top-left-radius: 11px;border-top-right-radius: 11px;text-align: right;">
-                    <div style="text-align: right;color: #d1d1d1;"></div><a class="navbar-brand classtext" href="#" style="font-family: bantayogsemilight;color: #d1d1d1;font-size: 17px;margin-right: 0px;"><img src="https://avatars.githubusercontent.com/u/26439746?v=4" style="width: 17px;height: 17px;margin-bottom: 9px;margin-right: 5px;color: #d1d1d1;border-radius: 50%;">D E L T A O N E A L P H A</a>
-                    <p class="lead mb-0 classtext" style="font-family: 'Courier Prime', monospace;color: #d1d1d1;text-align: right;margin-top: -7px;font-size: 9px;"><strong>//DLTA</strong><br></p>
-                    <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;text-align: right;margin-top: 9px;font-size: 10px;padding-bottom: 11px;">Website design copyright © 2020, Lirecent.<br>All rights reserved.<br></p>
-                    <p class="lead mb-0 classtext" style="font-family: 'Nunito Sans', sans-serif;color: #d1d1d1;text-align: right;margin-top: -5px;font-size: 2px;">WEB CLIENT | SC-I 1.0.0.0 Metalox DSST<br></p>
+    <div class="container" style="margin-bottom: 54px;">
+        <div class="row">
+            <div class="col-md-10 col-lg-10 col-xl-10 col-xxl-8 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-2">
+                <hr style="background: #adadad;margin-bottom: 54px;margin-top: 96px;">
+            </div>
+            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10 col-xxl-8 offset-sm-0 offset-md-1 offset-lg-1 offset-xl-1 offset-xxl-2">
+                <div class="row">
+                    <div class="col">
+                        <div style="margin-bottom: 9px;"><a style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;" onclick="homeTabDisplay();">Home</a></div>
+                        <div style="margin-bottom: 9px;"><a onclick="dashboardTabDisplay();" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">Dashboard</a></div>
+                        <div style="margin-bottom: 9px;"><a onclick="resumeTabDisplay();" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">Resume</a></div>
+                    </div>
+                    <div class="col">
+                        <div style="margin-bottom: 9px;"><a href="https://drive.deltaonealpha.dev//" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">Drive</a></div>
+                        <div style="margin-bottom: 9px;"><a href="https://github.com/deltaonealpha" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">GitHub</a></div>
+                        <div style="margin-bottom: 9px;"><a href="https://lirecent.com/users/deltaonealpha" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">Lirecent</a></div>
+                    </div>
+                    <div class="col">
+                        <div style="margin-bottom: 9px;"><a href="https://deltaonealpha.medium.com/" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">Medium</a></div>
+                        <div style="margin-bottom: 9px;"><a href="https://twitter.com/deltaonealpha" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">Twitter</a></div>
+                        <div style="margin-bottom: 9px;"><a href="https://www.youtube.com/channel/UCZYfQBPqA0A7zcXa3_wpO4w" style="font-size: 14px;color: #adadad;text-decoration: none;margin-right: 18px;">YouTube</a></div>
+                    </div>
+                </div>
+                <div>
+                    <h1 style="color: #adadad;font-size: 15px;padding-top: 18px;">© 2022 | deltaonealpha</h1>
                 </div>
             </div>
         </div>
-    </section><script>
-document.getElementById("bttriggertheme").addEventListener("click", function() {    
-    if (localStorage.getItem("themestatestorage") !== null ) {
-        if (localStorage.getItem("themestatestorage") == "dark") {
-
-            localStorage.setItem("themestatestorage", "light")
-            theme_whitemode()
-            document.getElementById("bttriggertheme").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb-off" style="padding-bottom: 2px;margin-right: 4px;"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path><line x1="9.7" y1="17" x2="14.3" y2="17"></line></svg>'
-        } else if (localStorage.getItem("themestatestorage") == "light") {
-            localStorage.setItem("themestatestorage", "dark")
-            theme_darkmode()
-            document.getElementById("bttriggertheme").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb" style="padding-bottom: 2px;margin-right: 4px;"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path><line x1="9.7" y1="17" x2="14.3" y2="17"></line></svg>'
-        } else {
-            localStorage.setItem("themestatestorage", "dark")
-        }
-    } else {
-        localStorage.setItem("themestatestorage", "light")
-        theme_whitemode()
-        document.getElementById("bttriggertheme").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb-off" style="padding-bottom: 2px;margin-right: 4px;"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path><line x1="9.7" y1="17" x2="14.3" y2="17"></line></svg>'
-    }
+    </div><script>
+// Code for the webShareAPI to share the current title
+document.getElementById("actionsOptionShare").addEventListener("click", function() {
+console.log("d1");
+if (navigator.share) {
+  navigator.share({
+    title: "Pranav's Resume",
+    text: `View or download my resume here`,
+    url: window.location.href,
+  })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+}});
+</script><script>
+window.onload = function() {
+// Github Followers
+$.get('https://img.shields.io/github/followers/deltaonealpha', function( html ) {
+$(html).find("title").each( function(){
+var text = $(this).text();
+$("#metrics_github").html(text.replace("followers: ", ""));
+})})};
+</script>
+<script>
+$.getJSON('https://mediumfetch.deltaonealpha.workers.dev/', function(data) {
+masterArray = data["data"]["posts"];
+jQuery("#loading_spinnertextdiv").fadeOut("900");
+for (var i = 0; i < (masterArray.length); i++) {
+document.getElementById("mediumarticlesprintherediv").innerHTML += `
+<div style='border-radius: 9px;margin-top: 18px;'>
+        <h1 style='color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;'>${masterArray[i]["title"]}</h1>
+        <h1 style='color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;'>${masterArray[i]["description"]}</h1><a class='btn btn-primary' type='button' href="${masterArray[i]["url"]}" style='border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;'><svg class='icon icon-tabler icon-tabler-brand-medium' xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round' style='margin-right: 6px;margin-bottom: 2px;'>
+                <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>
+                <rect x='4' y='4' width='16' height='16' rx='2'></rect>
+                <path d='M8 9h1l3 3l3 -3h1'></path>
+                <line x1='8' y1='15' x2='10' y2='15'></line>
+                <line x1='14' y1='15' x2='16' y2='15'></line>
+                <line x1='9' y1='9' x2='9' y2='15'></line>
+                <line x1='15' y1='9' x2='15' y2='15'></line>
+            </svg>Read</a>
+</div>`
+}
+jQuery("#mediumarticlesprintherediv").fadeIn("1800");
 });
+</script>
+<script>
+var temp = document.getElementById("twitterarticlesprintherediv");
 
-window.addEventListener('DOMContentLoaded', (event) => {
-if (localStorage.getItem("themestatestorage") !== null ) {
-    if (localStorage.getItem("themestatestorage") == "dark") {
-        theme_darkmode()
-        document.getElementById("bttriggertheme").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb" style="padding-bottom: 2px;margin-right: 4px;"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path><line x1="9.7" y1="17" x2="14.3" y2="17"></line></svg>'
-    } else if (localStorage.getItem("themestatestorage") == "light") {
-        theme_whitemode()
-        document.getElementById("bttriggertheme").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb-off" style="padding-bottom: 2px;margin-right: 4px;"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path><line x1="9.7" y1="17" x2="14.3" y2="17"></line></svg>'
-    } else {
-            localStorage.setItem("themestatestorage", "dark")
-    } 
-} else {
-            localStorage.setItem("themestatestorage", "dark")
+fetch('https://dev.to/api/articles?username=deltaonealpha')
+	.then((response) => response.json())
+	.then(data => {
+		console.log(data);
+		let output = '';
+jQuery("#loading_spinnertextdiv-1").fadeOut("900");
+		for(let i in data){
+document.getElementById("twitterarticlesprintherediv").innerHTML += `
+<div style='border-radius: 9px;margin-top: 18px;'>
+        <h1 style='color: #e9e9e9;font-size: 16.9px;margin-bottom: 0px;'>${data[i].title}</h1>
+        <h1 style='color: #adadad;font-size: 14px;padding-top: 5px;margin-bottom: 0px;font-weight: normal;'>${data[i].description}</h1><a class='btn btn-primary' type='button' href="${data[i].url}" style='border-color: #393939;background: #393939;margin-top: 9px;text-align: left;padding-top: 5px;padding-bottom: 5px;font-size: 14px;padding-right: 9px;padding-left: 9px;'><svg class='icon icon-tabler icon-tabler-brand-medium' xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round' style='margin-right: 6px;margin-bottom: 2px;'>
+                <path stroke='none' d='M0 0h24v24H0z' fill='none'></path>
+                <rect x='4' y='4' width='16' height='16' rx='2'></rect>
+                <path d='M8 9h1l3 3l3 -3h1'></path>
+                <line x1='8' y1='15' x2='10' y2='15'></line>
+                <line x1='14' y1='15' x2='16' y2='15'></line>
+                <line x1='9' y1='9' x2='9' y2='15'></line>
+                <line x1='15' y1='9' x2='15' y2='15'></line>
+            </svg>Read</a>
+</div>`
 }
-});
-</script><style>
-.loadingdiv {
-width: 100%;
-height: 100%;
-position: absolute;
-z-index: 100;
--webkit-animation: fadeOut 3s;
-    animation: fadeOut 3s;
-    animation-fill-mode: forwards;
-
+jQuery("#twitterarticlesprintherediv").fadeIn("1800");
+}).catch(error => console.log(error));
+</script><script>
+function homeTabDisplay() {
+$("#dashboardTab").fadeOut(900);
+$("#resumeTab").fadeOut(900);
+$("#homeTab").fadeIn(900);
+$("#navig_dashboard").css("font-weight", "normal");
+$("#navig_dashboard").css("font-size", "12px");
+$("#navig_resume").css("font-weight", "normal");
+$("#navig_resume").css("font-size", "12px");
+$("#navig_home").css("font-weight", "bolder");
+$("#navig_home").css("font-size", "18px");
 }
-
-@-webkit-keyframes fadeOut {
-    0% { opacity: 1.0;}
-    5% { opacity: 1.0;}
-    10% { opacity: 1.0;}
-    15% { opacity: 1.0;}
-    20% { opacity: 1.0;}
-    25% { opacity: 1.0;}
-    30% { opacity: 1.0;}
-    35% { opacity: 1.0;}
-    40% { opacity: 1.0;}
-    45% { opacity: 1.0;}
-    50% { opacity: 1.0;}
-    55% { opacity: 1.0;}
-    60% { opacity: 0.95;}
-    61% { opacity: 0.93;}
-    62% { opacity: 0.90;}
-    63% { opacity: 0.87;}
-    64% { opacity: 0.84;}
-    65% { opacity: 0.81;}
-    66% { opacity: 0.79;}
-    67% { opacity: 0.77;}
-    68% { opacity: 0.75;}
-    69% { opacity: 0.73;}
-    70% { opacity: 0.70;}
-    71% { opacity: 0.65;}
-    72% { opacity: 0.63;}
-    73% { opacity: 0.60;}
-    74% { opacity: 0.58;}
-    75% { opacity: 0.55;}
-    76% { opacity: 0.53;}
-    77% { opacity: 0.50;}
-    78% { opacity: 0.48;}
-    79% { opacity: 0.45;}
-    80% { opacity: 0.43;}
-    81% { opacity: 0.41;}
-    82% { opacity: 0.40;}
-    83% { opacity: 0.39;}
-    84% { opacity: 0.37;}
-    85% { opacity: 0.36;}
-    86% { opacity: 0.34;}
-    87% { opacity: 0.31;}
-    88% { opacity: 0.30;}
-    89% { opacity: 0.29;}
-    90% { opacity: 0.27;}
-    91% { opacity: 0.25;}
-    92% { opacity: 0.23;}
-    93% { opacity: 0.18;}
-    94% { opacity: 0.15;}
-    95% { opacity: 0.13;}
-    96% { opacity: 0.11;}
-    97% { opacity: 0.8;}
-    98% { opacity: 0.5;}
-99% { opacity: 0.01;width: 100%; height: 100%;}
-    100% { opacity: 0;width: 0; height: 0;}
-}  
-@keyframes fadeOut {
-    0% { opacity: 1.0;}
-    5% { opacity: 1.0;}
-    10% { opacity: 1.0;}
-    15% { opacity: 1.0;}
-    20% { opacity: 1.0;}
-    25% { opacity: 1.0;}
-    30% { opacity: 1.0;}
-    35% { opacity: 1.0;}
-    40% { opacity: 1.0;}
-    45% { opacity: 1.0;}
-    50% { opacity: 1.0;}
-    55% { opacity: 1.0;}
-    60% { opacity: 0.95;}
-    61% { opacity: 0.93;}
-    62% { opacity: 0.90;}
-    63% { opacity: 0.87;}
-    64% { opacity: 0.84;}
-    65% { opacity: 0.81;}
-    66% { opacity: 0.79;}
-    67% { opacity: 0.77;}
-    68% { opacity: 0.75;}
-    69% { opacity: 0.73;}
-    70% { opacity: 0.70;}
-    71% { opacity: 0.65;}
-    72% { opacity: 0.63;}
-    73% { opacity: 0.60;}
-    74% { opacity: 0.58;}
-    75% { opacity: 0.55;}
-    76% { opacity: 0.53;}
-    77% { opacity: 0.50;}
-    78% { opacity: 0.48;}
-    79% { opacity: 0.45;}
-    80% { opacity: 0.43;}
-    81% { opacity: 0.41;}
-    82% { opacity: 0.40;}
-    83% { opacity: 0.39;}
-    84% { opacity: 0.37;}
-    85% { opacity: 0.36;}
-    86% { opacity: 0.34;}
-    87% { opacity: 0.31;}
-    88% { opacity: 0.30;}
-    89% { opacity: 0.29;}
-    90% { opacity: 0.27;}
-    91% { opacity: 0.25;}
-    92% { opacity: 0.23;}
-    93% { opacity: 0.18;}
-    94% { opacity: 0.15;}
-    95% { opacity: 0.13;}
-    96% { opacity: 0.11;}
-    97% { opacity: 0.8;}
-    98% { opacity: 0.5;}
-99% { opacity: 0.01;width: 100%; height: 100%;}
-    100% { opacity: 0;width: 0; height: 0;}
+function dashboardTabDisplay() {
+$("#resumeTab").fadeOut(900);
+$("#homeTab").fadeOut(900);
+$("#dashboardTab").fadeIn(900);
+$("#navig_home").css("font-weight", "normal");
+$("#navig_home").css("font-size", "12px");
+$("#navig_resume").css("font-weight", "normal");
+$("#navig_resume").css("font-size", "12px");
+$("#navig_dashboard").css("font-weight", "bolder");
+$("#navig_dashboard").css("font-size", "18px");
 }
-</style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
+function resumeTabDisplay() {
+$("#homeTab").fadeOut(900);
+$("#dashboardTab").fadeOut(900);
+$("#resumeTab").fadeIn(900);
+$("#navig_dashboard").css("font-weight", "normal");
+$("#navig_dashboard").css("font-size", "12px");
+$("#navig_home").css("font-weight", "normal");
+$("#navig_home").css("font-size", "12px");
+$("#navig_resume").css("font-weight", "bolder");
+$("#navig_resume").css("font-size", "18px");
+}
+</script>
+    <div class="modal fade faded2" role="dialog" tabindex="-1" id="modal_lirecent" style="-webkit-backdrop-filter: blur(18px);backdrop-filter: blur(18px);border-style: none;background: rgba(0,0,0,0.25);position: absolute;bottom: -250px;right: 5%;-webkit-transition: bottom 0.3s ease-out;-moz-transition: bottom 0.3s ease-out;-o-transition: bottom 0.3s ease-out;transition: bottom 0.3s ease-out;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div style="margin-left: -4px;margin-bottom: -1px;margin-top: -1px;width: 102%;border-radius: 9px;background: #292929;">
+                    <div data-aos="zoom-out" data-aos-duration="450" style="margin: 0px;padding: 15px;margin-right: 0px;border-radius: 9px;padding-top: 24px;padding-bottom: 24px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xxl-8" style="margin-bottom: 15px;"><button id="titleModalClose" class="float-end circleButtonClassDark" type="button" style="background: #181718;border-style: none;border-radius: 50%;width: 38px;height: 38px;margin-top: 3px;color: #e9e9e9;" onclick="closeAllModals();">X</button>
+                                    <h1 class="text-capitalize borderbottom classtext lighttextct" style="-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-weight: 400;font-size: 32px;margin-bottom: 0px;text-align: left;border-bottom-style: none;color: #e9e9e9;padding-bottom: 9px;"><strong>Lirecent</strong><br></h1>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 15px;margin-top: 9px;">Lirecent is a reading platform for all and sundry,&nbsp;<em>backed by privacy, driven by smarts.</em>&nbsp;<br>It offers well-composed literature from amateur and experienced writers alike, backed by our extensive recommendation and analysis system which ensures you get content tailor-fit to you, every time. Lirecent also has&nbsp;<em>Food Blocks</em>, a way for our users to create and share recipes with the world!<br></p>
+                                </div>
+                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-4">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;">Image Gallery</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">-</p>
+                                    <hr style="margin-top: 9px;margin-bottom: 9px;background: #adadad;">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;padding-top: 9px;">Links</p><button class="btn btn-primary mainButtonClassDark" type="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering:optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering:optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering:optimizeLegibility;font-family: ;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: 9px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>Open lirecent.com</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade faded2" role="dialog" tabindex="-1" id="modal_phms" style="-webkit-backdrop-filter: blur(18px);backdrop-filter: blur(18px);border-style: none;background: rgba(0,0,0,0.25);position: absolute;bottom: -250px;right: 5%;-webkit-transition: bottom 0.3s ease-out;-moz-transition: bottom 0.3s ease-out;-o-transition: bottom 0.3s ease-out;transition: bottom 0.3s ease-out;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div style="margin-left: -4px;margin-bottom: -1px;margin-top: -1px;width: 102%;border-radius: 9px;background: #292929;">
+                    <div data-aos="zoom-out" data-aos-duration="450" style="margin: 0px;padding: 15px;margin-right: 0px;border-radius: 9px;padding-top: 24px;padding-bottom: 24px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xxl-8" style="margin-bottom: 15px;"><button class="float-end circleButtonClassDark" id="titleModalClose-1" type="button" style="background: #181718;border-style: none;border-radius: 50%;width: 38px;height: 38px;margin-top: 3px;color: #e9e9e9;" onclick="closeAllModals();">X</button>
+                                    <h1 class="text-capitalize borderbottom classtext lighttextct" style="-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-weight: 400;font-size: 32px;margin-bottom: 0px;text-align: left;border-bottom-style: none;color: #e9e9e9;padding-bottom: 9px;"><strong>PHMS</strong><br></h1>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 15px;margin-top: 9px;">The&nbsp;<em>Patient Health Monitoring System</em>&nbsp;framework is capable of monitoring real-time vitals, such as ECG scans, pulse, temperature, motion and more. It can also autonomously handle physical meters such as glucose drips et cetera. <br><br>All data is linked to the cloud, where its analyzed and stored. Doctors are immediately notified if the system observes changes in the patient's vitals.<br></p>
+                                </div>
+                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-4">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;">Image Gallery</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">Images are available for this:</p><a class="btn btn-primary mainButtonClassDark" role="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: -5px;" href="https://drive.deltaonealpha.dev/portfolio_projects_drive/phms/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>View</a>
+                                    <hr style="margin-top: 9px;margin-bottom: 9px;background: #adadad;">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;padding-top: 9px;">Links</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade faded2" role="dialog" tabindex="-1" id="modal_liquidVision" style="-webkit-backdrop-filter: blur(18px);backdrop-filter: blur(18px);border-style: none;background: rgba(0,0,0,0.25);position: absolute;bottom: -250px;right: 5%;-webkit-transition: bottom 0.3s ease-out;-moz-transition: bottom 0.3s ease-out;-o-transition: bottom 0.3s ease-out;transition: bottom 0.3s ease-out;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div style="margin-left: -4px;margin-bottom: -1px;margin-top: -1px;width: 102%;border-radius: 9px;background: #292929;">
+                    <div data-aos="zoom-out" data-aos-duration="450" style="margin: 0px;padding: 15px;margin-right: 0px;border-radius: 9px;padding-top: 24px;padding-bottom: 24px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xxl-8" style="margin-bottom: 15px;"><button class="float-end circleButtonClassDark" id="titleModalClose-2" type="button" style="background: #181718;border-style: none;border-radius: 50%;width: 38px;height: 38px;margin-top: 3px;color: #e9e9e9;" onclick="closeAllModals();">X</button>
+                                    <h1 class="text-capitalize borderbottom classtext lighttextct" style="-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-weight: 400;font-size: 32px;margin-bottom: 0px;text-align: left;border-bottom-style: none;color: #e9e9e9;padding-bottom: 9px;"><strong>Liquid Vision</strong><br></h1>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 15px;margin-top: 9px;">Liquid Vision provides haptic-based navigation for people with ailments relating to vision and movement, built into one's glasses. A custom-built PCB is embedded in its polycarbonate frame by implementing a split-PCB model across both sides of the frame with effortless and wireless inter-rim communication.<br><br><strong><em>Visionflow has won multiple awards at national level events and exhibitions.</em></strong><br></p>
+                                </div>
+                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-4">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;">Image Gallery</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">Images are available for this:</p><a class="btn btn-primary mainButtonClassDark" role="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: -5px;" href="https://drive.deltaonealpha.dev/portfolio_projects_drive/liquid_vision/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>View</a>
+                                    <hr style="margin-top: 9px;margin-bottom: 9px;background: #adadad;">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;padding-top: 9px;">Links</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade faded2" role="dialog" tabindex="-1" id="modal_dvalve" style="-webkit-backdrop-filter: blur(18px);backdrop-filter: blur(18px);border-style: none;background: rgba(0,0,0,0.25);position: absolute;bottom: -250px;right: 5%;-webkit-transition: bottom 0.3s ease-out;-moz-transition: bottom 0.3s ease-out;-o-transition: bottom 0.3s ease-out;transition: bottom 0.3s ease-out;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div style="margin-left: -4px;margin-bottom: -1px;margin-top: -1px;width: 102%;border-radius: 9px;background: #292929;">
+                    <div data-aos="zoom-out" data-aos-duration="450" style="margin: 0px;padding: 15px;margin-right: 0px;border-radius: 9px;padding-top: 24px;padding-bottom: 24px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xxl-8" style="margin-bottom: 15px;"><button class="float-end circleButtonClassDark" id="titleModalClose-3" type="button" style="background: #181718;border-style: none;border-radius: 50%;width: 38px;height: 38px;margin-top: 3px;color: #e9e9e9;" onclick="closeAllModals();">X</button>
+                                    <h1 class="text-capitalize borderbottom classtext lighttextct" style="-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-weight: 400;font-size: 32px;margin-bottom: 0px;text-align: left;border-bottom-style: none;color: #e9e9e9;padding-bottom: 9px;"><strong>DValve</strong><br></h1>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 15px;margin-top: 9px;">A tap attachment for urban homes that automatically cuts-off the water supply once the container underneath it is filled, enriched with IoT capabilities.<br></p>
+                                </div>
+                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-4">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;">Image Gallery</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">Images are available for this:</p><a class="btn btn-primary mainButtonClassDark" role="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: -5px;" href="https://drive.deltaonealpha.dev/portfolio_projects_drive/dvalve/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>View</a>
+                                    <hr style="margin-top: 9px;margin-bottom: 9px;background: #adadad;">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;padding-top: 9px;">Links</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade faded2" role="dialog" tabindex="-1" id="modal_agrotes" style="-webkit-backdrop-filter: blur(18px);backdrop-filter: blur(18px);border-style: none;background: rgba(0,0,0,0.25);position: absolute;bottom: -250px;right: 5%;-webkit-transition: bottom 0.3s ease-out;-moz-transition: bottom 0.3s ease-out;-o-transition: bottom 0.3s ease-out;transition: bottom 0.3s ease-out;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div style="margin-left: -4px;margin-bottom: -1px;margin-top: -1px;width: 102%;border-radius: 9px;background: #292929;">
+                    <div data-aos="zoom-out" data-aos-duration="450" style="margin: 0px;padding: 15px;margin-right: 0px;border-radius: 9px;padding-top: 24px;padding-bottom: 24px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xxl-8" style="margin-bottom: 15px;"><button class="float-end circleButtonClassDark" id="titleModalClose-4" type="button" style="background: #181718;border-style: none;border-radius: 50%;width: 38px;height: 38px;margin-top: 3px;color: #e9e9e9;" onclick="closeAllModals();">X</button>
+                                    <h1 class="text-capitalize borderbottom classtext lighttextct" style="-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-weight: 400;font-size: 32px;margin-bottom: 0px;text-align: left;border-bottom-style: none;color: #e9e9e9;padding-bottom: 9px;"><strong>Agrotes</strong></h1>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 15px;margin-top: 9px;">The Agrotes is&nbsp;a fully autonomous, scalable, always-learning stowable plantation pod for use in outer-space and on terrain.<br><br>It has been designed to work as self-independently as possible, with minimum user interaction required. It automatically handles environment control, nutrient delivery, air pressure, lighting and everything required while learning to get better and better each time with its advanced neural network.<br></p>
+                                </div>
+                                <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-4">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;">Image Gallery</p>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;">Images are available for this:</p><a class="btn btn-primary mainButtonClassDark" role="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: -5px;" href="https://drive.deltaonealpha.dev/portfolio_projects_drive/agrotes/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>View</a>
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 18px;margin-top: 18px;">Video renders are available for this:</p><a class="btn btn-primary mainButtonClassDark" role="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: -5px;" href="https://drive.deltaonealpha.dev/portfolio_projects_drive/agrotes/video_renders/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>View</a>
+                                    <hr style="margin-top: 9px;margin-bottom: 9px;background: #adadad;">
+                                    <p class="lead" style="font-size: 16px;color: #adadad;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;margin-bottom: 9px;font-weight: bold;padding-top: 9px;">Links</p><a class="btn btn-primary mainButtonClassDark" role="button" style="width: 100%;background: #181718;border-radius: 5px;-webkit-font-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;font-familyt-feature-settings: &quot;kern&quot; 1;text-rendering: optimizeLegibility;color: #e9e9e9;margin-bottom: 9px;padding-right: 15px;padding-left: 15px;padding-bottom: 5px;padding-top: 5px;text-align: left;border-style: none;border-bottom: 2px solid #afbced;margin-top: 9px;" href="https://agrotes.co/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-plus" style="margin-right: 9px;margin-bottom: 2px;padding-bottom: 0px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        </svg>agrotes.co</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><script>
+function details_lirecent() {
+// Get the modal
+$('#modal_lirecent').modal('show');
+}
+function details_phms() {
+// Get the modal
+$('#modal_phms').modal('show');
+}
+function details_liquidVision() {
+$('#modal_liquidVision').modal('show');
+}
+function details_dvalve() {
+$('#modal_dvalve').modal('show');
+}
+function details_agrotes() {
+$('#modal_agrotes').modal('show');
+}
+function closeAllModals() {
+$('#modal_agrotes').modal('hide');
+$('#modal_dvalve').modal('hide');
+$('#modal_liquidVision').modal('hide');
+$('#modal_phms').modal('hide');
+$('#modal_lirecent').modal('hide');
+}
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/bs-init.js?h=02a8f8d0119ea38ce4670281c1438789"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/3D_CSS_PROGRESS_BAR_BY_REDSTAPLER.js"></script>
-    <script src="assets/js/Loading-Page-Animation-Style.js"></script>
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
