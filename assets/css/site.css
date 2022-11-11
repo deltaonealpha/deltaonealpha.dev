@@ -1,0 +1,200 @@
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #6f5f6c;
+  z-index: -1;
+}
+
+.ScrollBarStyle1::-webkit-scrollbar {
+  width: 7px;
+}
+
+.ScrollBarStyle1::-webkit-scrollbar-track {
+  background: #00000000;
+  border: none;
+  border-radius: 0px;
+  overflow: auto;
+}
+
+.ScrollBarStyle1::-webkit-scrollbar-track:hover {
+  background: #333333;
+}
+
+.ScrollBarStyle1::-webkit-scrollbar-thumb {
+  background: #6e6e7d;
+  border-radius: 3px;
+  min-height: 40px;
+  overflow: auto;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: height 0.2s ease-in-out;
+  padding: 5px;
+  /*max-height: 54px;*/
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffdaf3!important;
+  background-color: var(--bs-accordion-active-bg);
+  box-shadow: inset 0 calc(-1*var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.hoverBehaviour:hover {
+  transition: all 0.54s;
+  transform: scale(0.9);
+  background-color: #fafafa!important;
+  color: #181718!important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.hoverBehaviour2:hover {
+  transition: all 0.36s;
+  transform: scale(1.09);
+  background-color: rgba(62,62,62,0.99)!important;
+}
+
+.imageHoverBehaviour:hover {
+  transition: all 0.54s;
+  transform: scale(1.9)!important;
+  background-color: rgba(68,59,68,0.54);
+  border-radius: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+}
+
+.imageHoverBehaviour2:hover {
+  transition: all 0.81s;
+  transform: scale(1.2)!important;
+  background-color: rgba(68,59,68,0.54);
+  border-radius: inherit;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  font-weight: 700 !important;
+  color: #ffdaf3!important;
+}
+
+.form-control:focus {
+  color: #dadada!important;
+  background-color: #fff;
+  border-color: #443b44;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(68,59,68,0.72);
+}
+
+.has-float-label {
+  display: block;
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.has-float-label input:hover:not(:disabled):not(:focus) {
+  /*border-bottom: 2px solid #1e1e1e !important;*/
+}
+
+.has-float-label input:placeholder-shown:not(:focus) {
+  /*border-bottom: 2px solid #8a8a8a;*/
+}
+
+.has-float-label input:focus {
+  /*border-bottom: 2px solid #2979ff;*/
+  transition: all .2s;
+}
+
+.inpuBoxNoFocus:focus {
+  outline: none !important;
+  border-color: #d1d1d1 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(0,123,255,.25);
+}
+
+.has-float-label input {
+  font-size: inherit;
+  /*padding: 16px 0 8px 0;*/
+  /*border: 0;*/
+  border-radius: 0;
+  box-shadow: none;
+  background-color: initial;
+  color: #2c2c2c;
+  caret-color: #2979ff;
+  /*border-bottom: 2px solid #8a8a8a;*/
+}
+
+.has-float-label input:placeholder-shown:not(:focus) + .label {
+  font-size: 16px;
+  top: 18px;
+  //bottom: -8px;
+  color: #838383;
+  left: 12px;
+  /*bottom: 9px;*/
+  font-variant-caps: initial;
+}
+
+.has-float-label input:focus ~ .label {
+  /*color: #2979ff;*/
+}
+
+.has-float-label label, .has-float-label > .label {
+  position: absolute;
+  left: 12px;
+  top: 5px;
+  cursor: text;
+  font-size: 12px;
+  color: #6d6d6d;
+  transition: all .2s;
+  pointer-events: none;
+  font-variant-caps: all-petite-caps;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+    background-size: 180% 90%;
+  }
+  54% {
+    background-position: 54% 50%;
+    background-size: 254% 127%;
+  }
+  72% {
+    background-position: 72% 50%;
+    background-size: 369% 250%;
+  }
+  100% {
+    background-position: 0% 50%;
+    background-size: 459% 360%;
+  }
+  72% {
+    background-position: 72% 50%;
+    background-size: 369% 250%;
+  }
+  54% {
+    background-position: 54% 50%;
+    background-size: 254% 127%;
+  }
+}
+

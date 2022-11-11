@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'raleway_thinextrabold';
+	src: url(../../assets/fonts/raleway-v28-latin-800-webfont.woff2) format('woff2'),
+	url(../../assets/fonts/raleway-v28-latin-800-webfont.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: auto;
+}
